@@ -11,6 +11,7 @@ function Timeline() {
     <div id="history">
       <div className="items-container">
         <h1>Career History</h1>
+        {/* You can add your career/internship history here */}
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -21,17 +22,22 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
+            {/* change the title to what applied to you above */}
             <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            {/*  change the location above */}
             <p>
               Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              {/* explain some of the skills or tasks you did in your position */}
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2020 - 2022" 
+            {/* CHANGE  THE DATES TO WHAT APPLY TO YOU*/}
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
+          {/* REPEAT THIS FOR ALL YOUR CAREER HISTORY SECTIONS */}
             <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
             <p>
