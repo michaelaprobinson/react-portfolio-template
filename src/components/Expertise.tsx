@@ -40,17 +40,20 @@ const labelsThird = [
     "LlamaIndex",
     "Streamlit",
 ];
-
+// this is the expertise section; you can change what experence or expertise you have in this section
 function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
+             {/* this is the expertise section. Add your experience below */}
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
+                     {/* Edit the header above to reflect your experience */}
                     <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                       {/* Edit the description above*/}
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -62,7 +65,9 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
+                     {/* Edit the header above to reflect your experience */}
                     <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                     {/* Edit the description above*/}
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -74,7 +79,9 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>GenAI & LLM</h3>
+                    {/* Edit the header above to reflect your experience */}
                     <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                     {/* Edit the description above*/}
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
@@ -89,3 +96,4 @@ function Expertise() {
 }
 
 export default Expertise;
+
