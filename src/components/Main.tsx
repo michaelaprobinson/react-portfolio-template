@@ -16,7 +16,9 @@ function Main() {
             <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
+          {/* Change to your name below */}
           <h1>Yuji Sato</h1>
+          {/*  You can change your title below if this does not apply */}
           <p>Full Stack Engineer</p>
 
           <div className="mobile_social_icons">
