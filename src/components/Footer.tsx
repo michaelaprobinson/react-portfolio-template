@@ -7,11 +7,11 @@ function Footer() {
   return (
     <footer>
       <div>
-        {/* You can also add different links here by: <a href="link" target="_blank" rel="noreferrer"><NameofIcon/></a> */}
+        {/* ❗You can also add different links here by: <a href="link" target="_blank" rel="noreferrer"><NameofIcon/></a> */}
         <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-        {/* for the link, insert your own github link here and add your name */}
+        {/* ❗for the link, insert your own github link here and add your name */}
       <p>A portfolio designed & built by <a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Yuji Sato</a> with 💜</p>
     </footer>
   );
