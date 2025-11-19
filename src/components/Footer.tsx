@@ -7,7 +7,8 @@ function Footer() {
   return (
     <footer>
       <div>
-        {/* ❗You can also add different links here by: <a href="link" target="_blank" rel="noreferrer"><NameofIcon/></a> */}
+        {/* ❗You can also add different links here by using: <a href="link" target="_blank" rel="noreferrer"><NameofIcon/></a> */}
+        {/* ❗Replace github and linkedin usernames with your own */}
         <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>

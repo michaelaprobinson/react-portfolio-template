@@ -12,7 +12,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact-only-email">
           <h1>Contact Me</h1>
-          {/* Repace userName@gmail.com with your email address*/}
+          {/* ❗Repace userName@gmail.com with your email address*/}
           <p>
             Got a project waiting to be realized? Let's collaborate and make it
             happen! Email me at: userName@email.com.

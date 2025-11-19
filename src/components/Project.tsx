@@ -11,7 +11,7 @@ import mock09 from "../assets/images/mock09.png";
 import mock10 from "../assets/images/mock10.png";
 import "../assets/styles/Project.scss";
 
-// You can add or take out any amount of projects you would like to include
+// ❗You can add or take out any amount of projects you would like to include
 function Project() {
   return (
     <div className="projects-container" id="projects">
@@ -21,18 +21,18 @@ function Project() {
           <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
             <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
           </a>
-          {/* add a photo preview of your project and imbed the link into it above */}
+          {/* ❗add a photo preview of your project and imbed the link into it above */}
           <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
             <h2>Filmate AI</h2>
           </a>
-          {/* add the title of your own project above after the <h2></h2> */}
+          {/* ❗add the title of your own project above after the <h2></h2> */}
           <p>
             Developed movie finder app with semantic search and sentiment
             analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.
           </p>
-          {/* add a description for your project above */}
+          {/* ❗add a description for your project above */}
         </div>
-        {/* repeat this for as many projects as you may like */}
+        {/* ❗repeat this for as many projects as you may like */}
         <div className="project">
           <a
             href="https://yujisatojr.itch.io/highspeedchase"
