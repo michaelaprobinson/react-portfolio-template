@@ -17,23 +17,24 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2024 - present"
+            /* CHANGE  THE DATES TO WHAT APPLY TO YOU*/
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
+            <h3 className="vertical-timeline-element-title">Honors Student Coordinator</h3>
             {/* change the title to what applied to you above */}
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h4 className="vertical-timeline-element-subtitle">Nashville, TN</h4>
             {/*  change the location above */}
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Communications, Project Management
               {/* explain some of the skills or tasks you did in your position */}
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022" 
-            {/* CHANGE  THE DATES TO WHAT APPLY TO YOU*/}
+            date="2024 - 2024" 
+            /* CHANGE  THE DATES TO WHAT APPLY TO YOU*/
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >

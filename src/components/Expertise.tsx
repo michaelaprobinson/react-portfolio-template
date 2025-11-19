@@ -18,6 +18,8 @@ const labelsFirst = [
     "PostgreSQL",
     "Postman"
 ];
+// You may change the different tools in this array to reflect what you have skills in; this applies to other arrays
+// labelsFirst applies to first section; labelsSecond is for second section; labelsThird applies to last expertise section
 
 const labelsSecond = [
     "Git",
